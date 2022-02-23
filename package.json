@@ -1,0 +1,29 @@
+{
+  "name": "webpack-first-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"webpack-dev-server",
+    "build": "rm -rf build && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HueVu99/webpack-first-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HueVu99/webpack-first-project/issues"
+  },
+  "homepage": "https://github.com/HueVu99/webpack-first-project#readme",
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
